@@ -1,0 +1,18 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 4em;
+    border-bottom: 3px solid rgb(204, 204, 204);
+    padding: 15px 8%;
+}
+.camera-icon-div{
+    margin-right: 2em;
+    height: 100%;
+    
+}
+.camera-icon{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}

@@ -1,0 +1,33 @@
+.main-post{
+    border: 0.5px solid gray;
+    width: 40%;
+    margin: auto;
+    margin-top: 5em;
+    padding: 2em;
+}
+.choose-file{
+    border: 1px solid gray;
+    margin-top: 1em;
+}
+.name{
+    width: 40%;
+    float: left;
+    margin-top: 1em;
+}
+.location{
+    width: 40%;
+    float: right;
+    margin-top: 1em;
+}
+.description{
+    width: 99%;
+    margin-top: 1em
+}
+.submit-button{
+    margin-left: 42%;
+    margin-top: 2em;
+    padding: 0.2em;
+    width: 15%;
+    background: lightskyblue;
+    border-radius: 0.5em;
+}

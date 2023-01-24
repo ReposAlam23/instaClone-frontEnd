@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+  }
+  
+  .navbar {
+    border-bottom: 3px solid rgb(204, 204, 204);
+    padding: 15px 8%;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  
+  .card {
+    width: 400px;
+    height: 350px;
+    border: 2px solid #d8d8d8;
+    margin: 1.5rem auto .5rem;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 0 8px #bf9a9a;
+  }
+  
+  .top-section,
+  .img-section {
+    border-bottom: 2px solid #e9e9e9;
+  }
+  
+  .img-section {
+    height: 180px;
+    overflow: hidden;
+  }
+  
+  .img-section img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .top-section {
+    height: 60px;
+    display: flex;
+    padding: 5px 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .name {
+    font-weight: 700;
+  }
+  
+  .location {
+    color: #a5a5a5;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  
+  .dots img {
+    width: 20px;
+  }
+  
+  .camera-icon img {
+    width: 30px;
+  }
+  
+  .logo-name img {
+    width: 40px;
+  }
+  
+  .logo-name {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+  }
+  
+  .logo-name span {
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 24px;
+    color: rgb(0, 204, 255);
+  }
+  
+  .desc-section {
+    padding: 5px 20px;
+  }
+  
+  .heart-likes img {
+    width: 17px;
+    margin-right: 15px;
+  }
+  
+  .heart-likes .likes {
+    color: #a5a5a5;
+    font-size: 13px;
+  }
+  
+  .upper-desc {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .desc-section .date {
+    color: #a5a5a5;
+    font-size: 14px;
+    font-weight: 500;
+  }
+  
+  .desc-section .description {
+    margin-top: 5px;
+    font-weight: 600;
+  }
